@@ -22,3 +22,5 @@ Scope of improvements:
 2. Docker integration
 3. For larger data, PSQL can be used instead of sqlite.
 4. AI based analytics to reach marketeable outcomes with the data in the report.
+
+Source files have been excluded due to their large sizes (tey were stored in a directory called store-monitoring-data in the base dir)

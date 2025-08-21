@@ -1,7 +1,7 @@
 Tech Stack:
 - Framework: Django
 - DB: SQLite
-- Caching: Redis
+- Caching: Redis (for Celery async tasks)
 
 Process to set up and run:
 1. git remote add origin <repo_url>

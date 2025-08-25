@@ -1,7 +1,7 @@
 from rest_framework import serializers
 from .models import *
 
-class TimezoneSerializer(serializers.Serializer):
+class TimezoneSerializer(serializers.ModelSerializer):
      class Meta:
         model = Timezone
         fields = ['store_id', 'timezone_str']

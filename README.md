@@ -14,8 +14,7 @@ Flow:
 3. Run POST http://localhost:8000/trigger_report to prepare the report and the report is stored inside the reports folder. the report id is returned in the response
 4. Run GET http://localhost:8000/get_report/<report_id> to get the report data (Sample report is added already)
 5. Additionally, to check the contents of the table, use GET http://localhost:8000/data/<table_name> 
-6. In case, we need to clear the db, DELETE http://localhost:8000/data/ is to be used
-   
+6. In case, we need to clear the db, DELETE http://localhost:8000/data/ is to be used   
 Scope of improvements:
 1. Cron jobs to handle rapid changes in data
 2. Docker integration
@@ -26,4 +25,4 @@ Tech Stack:
 - Framework: Django
 - DB: SQLite
 
-Source files have been excluded due to their large sizes (tey were stored in a directory called store-monitoring-data in the base dir)
+Source files have been excluded due to their large sizes (they were stored in a directory called store-monitoring-data in the base dir)
